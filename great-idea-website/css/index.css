@@ -63,4 +63,119 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+* {
+	border: 1px solid crimson !important;
+}
+
+
 /* Your code starts here! */
+body {
+	border: 1px solid #cccccc;
+	width: 50%;
+	margin: 0 auto;
+}
+.container {
+	margin: 1% 5%;
+}
+
+/* Navigation */
+nav {
+	text-align: justify;
+}
+
+nav:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+.nav {
+	display: inline-block;
+	text-decoration: none;
+	color: silver;
+}
+
+header button {
+	font-size: 17px;
+	width: 45%;
+}
+
+/* Header */
+header {
+	text-align: center;
+}
+
+.text-based {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0 3%;
+	/*width: 50%;*/
+}
+
+.head-img {
+	display: inline-block;
+	/*margin: 5% 0;*/
+	/*width: 50%;*/
+}
+
+.text-based > h1 {
+	box-sizing: border-box;
+	/*margin: 1% 5%;*/
+	/*border: 0;*/
+	/*height: 200px;*/
+	/*width: 200px;*/
+	font-size: 75px;
+}
+
+.header-img {
+	display: inline-block;
+	vertical-align: center;
+}
+
+hr {
+	display: block;
+	height: 3px;
+	border: 0;
+	border-top: 3px solid gray;
+	margin: 2% 0;
+	padding: 0;
+}
+
+/* Content Rows */
+
+.row1 {
+	display: inline-block;
+	width: 45%;
+}
+
+.row_2 {
+	text-align: center;
+	width: 100%;
+}
+
+.row3 {
+	display: inline-block;
+	width: 33%;
+}
+
+/* Div 2, Section 1 */
+
+/* Section 2 */
+
+/* Footer */
+
+footer .copyright {
+	padding: 20px 0;
+	text-align: center;
+}
