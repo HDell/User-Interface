@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+   	min-height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -74,17 +74,19 @@ h1, h2, h3, h4, h5 {
 
 
 
-* {
-	border: 1px solid crimson !important;
-}
+/** {*/
+	/*border: 1px solid crimson !important;*/
+/*}*/
 
 
 /* Your code starts here! */
 body {
+	min-height: 100%;
 	border: 1px solid #cccccc;
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 }
+
 .container {
 	margin: 1% 5%;
 }
@@ -92,6 +94,7 @@ body {
 /* Navigation */
 nav {
 	text-align: justify;
+	margin-bottom: 5%;
 }
 
 nav:after {
@@ -106,9 +109,8 @@ nav:after {
 	color: silver;
 }
 
-header button {
-	font-size: 17px;
-	width: 45%;
+.logo {
+	vertical-align: middle;
 }
 
 /* Header */
@@ -120,27 +122,20 @@ header {
 	display: inline-block;
 	box-sizing: border-box;
 	margin: 0 3%;
-	/*width: 50%;*/
 }
 
-.head-img {
-	display: inline-block;
-	/*margin: 5% 0;*/
-	/*width: 50%;*/
+.header-img {
+
 }
 
 .text-based > h1 {
 	box-sizing: border-box;
-	/*margin: 1% 5%;*/
-	/*border: 0;*/
-	/*height: 200px;*/
-	/*width: 200px;*/
-	font-size: 75px;
+	font-size: 5em;
 }
 
-.header-img {
-	display: inline-block;
-	vertical-align: center;
+header button {
+	font-size: 1em;
+	width: 45%;
 }
 
 hr {
@@ -156,17 +151,19 @@ hr {
 
 .row1 {
 	display: inline-block;
-	width: 45%;
+	width: calc(50% - 1%);
+
 }
 
-.row_2 {
+.middle-img {
 	text-align: center;
 	width: 100%;
+	margin: 4% 0;
 }
 
 .row3 {
 	display: inline-block;
-	width: 33%;
+	width: calc(33% - 1%);
 }
 
 /* Div 2, Section 1 */
