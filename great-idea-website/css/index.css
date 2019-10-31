@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+   	min-height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -63,4 +63,116 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/** {*/
+	/*border: 1px solid crimson !important;*/
+/*}*/
+
+
 /* Your code starts here! */
+body {
+	min-height: 100%;
+	border: 1px solid #cccccc;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 1% 5%;
+}
+
+/* Navigation */
+nav {
+	text-align: justify;
+	margin-bottom: 5%;
+}
+
+nav:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+.nav {
+	display: inline-block;
+	text-decoration: none;
+	color: silver;
+}
+
+.logo {
+	vertical-align: middle;
+}
+
+/* Header */
+header {
+	text-align: center;
+}
+
+.text-based {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 10% 3%;
+}
+
+.header-img {
+
+}
+
+.text-based > h1 {
+	box-sizing: border-box;
+	font-size: 5em;
+}
+
+header button {
+	font-size: 1em;
+	width: 45%;
+}
+
+hr {
+	display: block;
+	height: 3px;
+	border: 0;
+	border-top: 3px solid gray;
+	margin: 5% 0;
+	padding: 0;
+}
+
+/* Content Rows */
+
+.row1 {
+	display: inline-block;
+	width: calc(50% - 1%);
+
+}
+
+.middle-img {
+	text-align: center;
+	width: 100%;
+	margin: 4% 0;
+}
+
+.row3 {
+	display: inline-block;
+	width: calc(33% - 1%);
+}
+
+/* Div 2, Section 1 */
+
+/* Section 2 */
+
+/* Footer */
+
+footer .copyright {
+	padding: 20px 0;
+	text-align: center;
+}
