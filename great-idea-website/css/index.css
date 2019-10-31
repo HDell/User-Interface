@@ -121,11 +121,8 @@ header {
 .text-based {
 	display: inline-block;
 	box-sizing: border-box;
-	margin: 10% 3%;
-}
-
-.header-img {
-
+	margin: 10% 4%;
+	vertical-align: top;
 }
 
 .text-based > h1 {
